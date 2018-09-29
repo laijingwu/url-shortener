@@ -1,0 +1,28 @@
+{
+    "name": "laijingwu/url-shortener",
+    "description": "A light url shortener for customizing links.",
+    "homepage": "https://github.com/laijingwu/urlshortener",
+    "keywords": ["url-shortener", "shorten"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "laijingwu",
+            "email": "admin@laijingwu.com",
+            "homepage": "http://laijingwu.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "vlucas/phpdotenv": "^2.5",
+        "catfan/medoo": "^1.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "UrlShortener\\": "src/"
+        },
+        "files": [
+            "src/functions.php"
+        ]
+    }
+}
