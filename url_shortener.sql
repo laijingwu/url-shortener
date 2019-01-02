@@ -11,7 +11,7 @@
  Target Server Version : 50553
  File Encoding         : 65001
 
- Date: 29/09/2018 21:16:01
+ Date: 02/01/2019 10:39:29
 */
 
 SET NAMES utf8mb4;
@@ -29,6 +29,6 @@ CREATE TABLE `url_shortener`  (
   `created_at` datetime NOT NULL COMMENT 'create time',
   PRIMARY KEY (`id`) USING BTREE,
   UNIQUE INDEX `code`(`code`) USING BTREE
-) ENGINE = MyISAM AUTO_INCREMENT = 5 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
+) ENGINE = MyISAM AUTO_INCREMENT = 6 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
 
 SET FOREIGN_KEY_CHECKS = 1;
